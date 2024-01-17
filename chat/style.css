@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.chat {
+    position: relative;
+    top:15vmin;
+    left:45vmin;
+    display:flex;
+    width:170vmin;
+    height: 70vmin;
+}
+.john,.jane{
+    position:relative;
+    background: aquamarine;
+    text-align: center;
+    border:0.1vmin solid black;
+}
+.chatOne {
+    position:relative;
+    width:50vmin; 
+    min-height:50vmin; 
+    border:0.1vmin solid black;
+    overflow: auto;
+  }
+.chatTwo {
+    position: relative;
+    width:50vmin; 
+    min-height:50vmin; 
+    border:0.1vmin solid black;
+    overflow: auto;
+  }
+.btnOne,.btnTwo,.inputTwo,.inputOne{
+    position:relative;
+    top: 70vmin;
+    background: aqua;
+    height: 5vmin;
+    left:-43vmin;
+}
+.btnOne,.btnTwo{
+    width:10vmin;
+}
+.inputTwo,.inputOne{
+    width: 40vmin;
+}
+.blue{
+    position:relative;
+    right:0;
+    background:  aqua;
+    border:0.1vmin solid black;
+    border-radius: 1vmin;
+    font-size: 3vmin;
+    direction: rtl;
+}
+.green{
+    position:relative;
+    left:0;
+    border:0.1vmin solid black;
+    border-radius: 1vmin;
+    background: aquamarine;
+    font-size: 3vmin;
+}
